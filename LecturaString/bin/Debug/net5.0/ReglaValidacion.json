@@ -1,0 +1,11 @@
+{
+  "Header": {
+    "HC": [ 6, 74, 80 ],
+    "Identificacion" :  [6,14,25]
+  },
+  "SignosVitales": {
+    "FinArchivo": 23,
+    "ValidacionHc": [ 6, 67, 81 ],
+    "separadorHc": ":"
+  }
+}

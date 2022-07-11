@@ -1,0 +1,54 @@
+{
+  "Aggregates": [
+    {
+      "UpstreamPathTemplate": "/api/userspost",
+      "RouteKeys": [ "users", "posts" ],
+      "Aggregator" :  "UsersPostsAggregator"
+    }
+  ],
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/posts",
+
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "my-json-server.typicode.com",
+          "Port": 443
+        }
+
+      ],
+      "DownstreamPathTemplate": "/typicode/demo/posts",
+      "UpstreamHttpMethod": [],
+      "Key": "users",
+      "RateLimitOptions": {
+
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      },
+      "RouteClaimsRequirement": {
+        "userType": "admin"
+      }
+      
+    },
+    {
+      "UpstreamPathTemplate": "/api/comments",
+
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "my-json-server.typicode.com",
+          "Port": 443
+        }
+
+      ],
+      "DownstreamPathTemplate": "/typicode/demo/comments",
+      "UpstreamHttpMethod": [],
+      "Key": "posts"
+    }
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5005"
+  }
+}

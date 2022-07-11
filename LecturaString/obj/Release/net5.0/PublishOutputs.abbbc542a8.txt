@@ -1,0 +1,12 @@
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\LecturaString.exe
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\Resources\Prueba.html
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\LecturaString.dll
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\LecturaString.deps.json
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\LecturaString.runtimeconfig.json
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\LecturaString.pdb
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\prueba\practice\LecturaString\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
